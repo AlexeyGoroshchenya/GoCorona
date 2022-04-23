@@ -12,10 +12,12 @@ export const burger = () => {
     document.querySelector('.header').addEventListener('click', (e) => {
 
         if (e.target.closest('.menu__icon') || e.target.closest('.btn-menu-close')) {
+            e.preventDefault()
             moveMenu()
         }
 
         if (e.target.matches('.menu__item>a')) {
+            e.preventDefault()
             moveMenu()
         }
 
