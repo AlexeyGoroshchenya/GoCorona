@@ -268,11 +268,12 @@ body {
   padding: 14px 30px;
   border-radius: 5px;
   background-color: #EC5863;
-  transition: background-color 0.3s;
+  transition-duration: 0.3s;
 }
 
 .button:hover {
   background-color: #df2b37;
+  transform: scale(1.05);
 }
 
 .button-blue {
@@ -459,6 +460,7 @@ body {
 .video-get-started {
   display: inline-flex;
   align-items: center;
+  cursor: pointer;
 }
 
 .video-get-started__icon {
@@ -968,7 +970,14 @@ body {
   gap: 50px;
 }
 
-.footer__button:hover {}
+.footer__button {
+  cursor: pointer;
+  transition-duration: 00.3s;
+}
+
+.footer__button:hover {
+  transform: scale(1.05);
+}
 
 @media (max-width: 479.98px) {
 
