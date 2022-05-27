@@ -16,7 +16,7 @@
   \******************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _modules_burger__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./modules/burger */ \"./modules/burger.js\");\n\n\n(0,_modules_burger__WEBPACK_IMPORTED_MODULE_0__.burger)();\n\n\n//# sourceURL=webpack:///./index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _modules_burger__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./modules/burger */ \"./modules/burger.js\");\n\r\n\r\n(0,_modules_burger__WEBPACK_IMPORTED_MODULE_0__.burger)();\r\n\n\n//# sourceURL=webpack:///./index.js?");
 
 /***/ }),
 
