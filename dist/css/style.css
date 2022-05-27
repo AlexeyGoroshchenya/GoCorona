@@ -628,7 +628,7 @@ body {
 
   .stay-safe__media {
     order: 2;
-    align-self: flex-end;
+    align-self: center;
     padding-top: 15px;
   }
 }
